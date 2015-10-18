@@ -1,0 +1,52 @@
+{
+  "name": "react-iTunes-search",
+  "version": "1.0.2",
+  "description": "simple web app for iTunes Search implemented by React",
+  "main": "js/app.js",
+  "keywords": [
+    "react",
+    "iTunes",
+    "search",
+    "apple",
+    "babel",
+    "ES6"
+  ],
+  "author": {
+    "name": "Leo Hsieh",
+    "url": "http://leoj.js.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LeoAJ/react-iTunes-search.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "babel server.js | node",
+    "deploy": "NODE_ENV=production webpack -p --config webpack.production.config.js --progress --colors",
+    "lint": "eslint js/**"
+  },
+  "dependencies": {
+    "classnames": "^2.1.2",
+    "jquery": "^2.1.4",
+    "moment": "^2.10.3",
+    "node-libs-browser": "^0.5.2",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "reqwest": "^2.0.5",
+    "xhr2": "^0.1.3"
+  },
+  "devDependencies": {
+    "babel-core": "^5.8.25",
+    "babel-eslint": "^4.0.5",
+    "babel-loader": "^5.1.4",
+    "css-loader": "^0.19.0",
+    "eslint": "^1.1.0",
+    "file-loader": "^0.8.4",
+    "imports-loader": "^0.6.4",
+    "react-hot-loader": "^1.3.0",
+    "style-loader": "^0.12.3",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.9.11",
+    "webpack-dev-server": "^1.12.0"
+  }
+}
